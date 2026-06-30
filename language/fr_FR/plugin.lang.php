@@ -1,0 +1,37 @@
+<?php
+if (!defined('PHPWG_ROOT_PATH')) die('Hacking attempt!');
+
+$lang['Notify New Photos'] = 'Notifier les nouvelles photos';
+$lang['Notifications'] = 'Notifications';
+$lang['Enable automatic notifications'] = 'Activer les notifications automatiques';
+$lang['When enabled, the gallery checks for new photos on the interval below (triggered by site traffic). For a guaranteed schedule, call the web service from a system cron.'] = 'Lorsque cette option est activée, la galerie vérifie les nouvelles photos selon l’intervalle ci-dessous (déclenché par le trafic du site). Pour une planification garantie, appelez le service web depuis une tâche cron système.';
+$lang['Check interval (minutes)'] = 'Intervalle de vérification (minutes)';
+$lang['Recipients'] = 'Destinataires';
+$lang['Users to notify'] = 'Utilisateurs à notifier';
+$lang['Groups to notify'] = 'Groupes à notifier';
+$lang['Every member of the selected groups is notified.'] = 'Chaque membre des groupes sélectionnés est notifié.';
+$lang['Also notify all administrators'] = 'Notifier aussi tous les administrateurs';
+$lang['Each recipient only receives the photos they are allowed to see.'] = 'Chaque destinataire ne reçoit que les photos qu’il est autorisé à voir.';
+$lang['Email'] = 'E-mail';
+$lang['HTML (with thumbnails)'] = 'HTML (avec miniatures)';
+$lang['Plain text'] = 'Texte brut';
+$lang['Maximum thumbnails per email'] = 'Nombre maximum de miniatures par e-mail';
+$lang['Status &amp; actions'] = 'État &amp; actions';
+$lang['Last run'] = 'Dernière exécution';
+$lang['never'] = 'jamais';
+$lang['Run now'] = 'Exécuter maintenant';
+$lang['Send a test email to me'] = 'M’envoyer un e-mail de test';
+$lang['Save Settings'] = 'Enregistrer les paramètres';
+$lang['Settings saved'] = 'Paramètres enregistrés';
+$lang['Notification run complete: %d email(s) sent.'] = 'Exécution terminée : %d e-mail(s) envoyé(s).';
+$lang['Test email sent to %s.'] = 'E-mail de test envoyé à %s.';
+$lang['Could not send the test email: your account has no email address.'] = 'Impossible d’envoyer l’e-mail de test : votre compte n’a pas d’adresse e-mail.';
+$lang['This is a test of the new-photos notification.'] = 'Ceci est un test de la notification de nouvelles photos.';
+$lang['Test notification'] = 'Notification de test';
+$lang['%d new photo'] = '%d nouvelle photo';
+$lang['%d new photos'] = '%d nouvelles photos';
+$lang['%d new photo has been added to the gallery:'] = '%d nouvelle photo a été ajoutée à la galerie :';
+$lang['%d new photos have been added to the gallery:'] = '%d nouvelles photos ont été ajoutées à la galerie :';
+$lang['… and %d more photo'] = '… et %d photo de plus';
+$lang['… and %d more photos'] = '… et %d photos de plus';
+$lang['View the gallery'] = 'Voir la galerie';
